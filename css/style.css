@@ -1,0 +1,178 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #191A23;
+}
+
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #191A23;
+  font-size: 16px;
+}
+
+.btn-borda {
+  background-color: transparent;
+  border: 1px solid #191A23;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 40px;
+}
+
+.banner-texto {
+  width: 50%;
+}
+
+.banner-texto h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.banner-texto p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.btn-preto {
+  background-color: #191A23;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner-imagem img {
+  width: 380px;
+  max-width: 100%;
+}
+
+
+.titulo-secao {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+}
+
+.titulo-secao h2 {
+  background-color: #B9FF66;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 30px;
+}
+
+.titulo-secao p {
+  max-width: 500px;
+  font-size: 15px;
+}
+
+
+.container-cards {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 30px;
+}
+
+
+.card {
+  width: 48%; 
+  min-width: 320px;
+  border: 1px solid #191A23;
+  border-bottom: 6px solid #191A23; 
+  border-radius: 30px;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.card-cinza {
+  background-color: #F3F3F3;
+}
+
+.card-verde {
+  background-color: #B9FF66;
+}
+
+.card-preto {
+  background-color: #191A23;
+}
+
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
+.etiqueta-verde {
+  background-color: #B9FF66;
+  color: #191A23;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+.etiqueta-branca {
+  background-color: #ffffff;
+  color: #191A23;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 22px;
+}
+
+
+.link-card {
+  text-decoration: none;
+  color: #191A23;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link-card-branco {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.card-img img {
+  width: 140px;
+}
